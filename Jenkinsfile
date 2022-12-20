@@ -21,7 +21,7 @@ pipeline {
                     region: 'us-east-1',
                     containerDefinitions: [
                         {
-                            name: 'frontend',
+                            name: 'app',
                             image: 'public.ecr.aws/t6e7g0f9/app',
                             portMappings: [
                                 {
